@@ -1,0 +1,38 @@
+{
+  "name": "doconalystyle",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Ecommerce Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "author": "Sergey Bunakov",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergbanderlogin/doconalystyle-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sergbanderlogin/doconalystyle-app/issues"
+  },
+  "homepage": "https://github.com/sergbanderlogin/doconalystyle-app#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.7",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-plugin-react": "^7.21.2",
+    "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "12.4.0",
+    "npm": "6.9.0"
+  }
+}
